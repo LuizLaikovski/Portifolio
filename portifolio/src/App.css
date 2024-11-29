@@ -7,31 +7,20 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-.range {
-  height: 100px;
-  width: 100%;
-  color: white;
-  background-color: #051d40;
-  font-family: "Tangerine", cursive;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 30px;
-}
-
-#sectionOne {
+#section1, #section2 {
   background-color: #fdf8f0;
   height: 600px;
   display: flex;
   align-items: center;
 }
 
-#articleOne {
+#article1 {
   width: 300px;
   height: 500px;
 }
 
-.containerOne {
+.container1, .container2 {
+  height: auto;
   background-color: #b1d4e0;
   border: 1px solid #051d40;
   border-radius: 40px;
@@ -42,19 +31,39 @@ body {
   flex-direction: column;
 }
 
-.containerOne h1 {
-  font-size: 70px;
+.container1 {
+  margin-left: 80px;
+}
+
+.container1 h1 {
+  font-size: 60px;
   color: white;
 }
 
-.containerOne p {
+.container1 p {
   margin-left: 50px;
   margin-right: 50px;
   text-align: center;
   font-size: 17px;
 }
 
-#sectionOne .containerOne {
+#section2 h1{
+  font-size: 70px;
+  margin-right: 250px;
+  margin-left: 50px;
+}
+
+.container2 p {
+  text-align: center;
+  font-size: 17px;
+  margin: 0px 50px 0px 50px;
+}
+
+.container2 img {
+  height: 90px;
+}
+
+#sectionOne .container1 {
   margin-left: 50px;
 }
 
