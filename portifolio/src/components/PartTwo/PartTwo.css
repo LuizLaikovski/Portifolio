@@ -1,0 +1,110 @@
+:root {
+    --color-black: #101010;
+}
+
+
+* {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+.BoxOne {
+    height: 90dvh;
+    width: 100dvw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerOne {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: none;
+    height: 65dvh;
+    width: 70dvw;
+}
+
+.TitleSkill {
+    color: black;
+    font-size: 70px;
+    transform: translateY(+20%);
+    opacity: 0;
+    filter: blur(30px);
+    transition: all 0.5s;
+}
+
+.fx {
+    height: 55dvh;
+    width: 2px;
+    background-color: black;
+    margin: 0 30px 0 30px;
+    transform: translateY(+20%);
+    opacity: 1;
+    filter: blur(30px);
+    transition: all 0.5s;
+}
+
+.MySKILLS {
+    height: 50dvh;
+    width: 35dvw;
+    font-size: 60px;
+    color: var(--color-black);
+    transition: color 0.3s;
+}
+
+.tt1 {
+    font-size: 30px;
+    transform: translateY(+20%);
+    opacity: 0;
+    filter: blur(30px);
+    transition: all 0.5s;
+}
+
+.icons {
+    margin: 0 15px 0 15px;
+    transform: translateY(+20%);
+    opacity: 0;
+    filter: blur(30px);
+    transition: all 0.5s;
+}
+
+.icons:hover {
+    cursor: pointer;
+    transform: scale(+130%);
+}
+
+.HTML5:hover {
+    color: #f16638;
+}
+
+.CSS3:hover {
+    color: #1775bb;
+}
+
+.JS:hover {
+    color: #fcb040;
+}
+
+.REACT:hover {
+    color: #61dbfb;
+}
+
+.JAVA:hover {
+    color: #f89917;
+}
+
+.GIT:hover {
+    color: #f44d27;
+}
+
+.GITHUB:hover {
+    color: #000000;
+}
+
+.Visible {
+    opacity: 1;
+    filter: blur(0);
+    transition: all 0.6s;
+    transform: translateY(0%);
+}

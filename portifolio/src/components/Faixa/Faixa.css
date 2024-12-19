@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin&display=swap');
+/* font-family: "Kaisei Tokumin", serif; */
+
+* {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+.Faixa {
+    display: flex;
+    align-items: center;
+    height: 13dvh;
+    width: 100dvw;
+    background-color: transparent;
+    backdrop-filter: blur(8px);
+    color: rgb(128, 128, 128);
+    border-bottom: solid 2px rgb(128, 128, 128);
+}
+
+.Instalg {
+    height: 12dvh;
+    filter: grayscale(100%) brightness(200%) contrast(0%);
+    cursor: pointer;
+}
+
+.titleF {
+    margin: 0 0 0 5px;
+}
+
+.NavBar {
+    height: 15dvh;
+    width: 50dvw;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-left: 35dvw;
+}
+
+.NavBar li {
+    margin: 0 20px 0 20px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.NavBar li:hover {
+    color: whitesmoke;
+}
+
+.LOGOO {
+    font-family: "Kaisei Tokumin", serif;
+    width: 20dvw;
+    margin: 0 0 0 30px;
+    text-decoration: none;
+    color: rgb(128, 128, 128);
+    font-size: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.LOGOO:hover {
+    color: whitesmoke;
+}
