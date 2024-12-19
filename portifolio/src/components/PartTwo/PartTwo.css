@@ -1,3 +1,8 @@
+:root {
+    --color-black: #101010;
+}
+
+
 * {
     margin: 0 0 0 0;
     padding: 0 0 0 0;
