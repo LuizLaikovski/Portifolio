@@ -5,19 +5,17 @@ function Faixa() {
     return (
         <>
             <header className="Faixa">
-                {/* <a href="https://www.instagram.com/lz.lvk/"><img src={logoInsta} className="Instalg"></img></a>
-                <h1 className="titleF">lz.lvk</h1> */}
                 <a className="LOGOO" href="https://github.com/luizlaikovski">Luiz Laikovski | Dev</a>
                 <ul className="NavBar">
-                    <li>Sobre Mim</li>
-                    <li>Sobre Mim</li>
-                    <li>Sobre Mim</li>
+                    <li href="#SobreMim">Sobre Mim</li>
+                    <li>Minhas Skill's</li>
+                    <li>Soft Skill's</li>
                     <li>Sobre Mim</li>
                     <li>Sobre Mim</li>
                 </ul>
             </header>
         </>
-    )
-};
+    );
+}
 
 export default Faixa

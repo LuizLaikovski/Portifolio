@@ -7,12 +7,12 @@ function PartOne(props) {
                 <h1 className="TituloPrincipal">{props.nome}</h1>
                 <div className="Faixaa"></div>
                 <div className="TextBox">
-                    <p>{props.text}</p>
+                    <article>{props.text}</article>
                 </div>
             </div>
         </>
-    )
-};
+    );
+}
 
 
 let myObserver = new IntersectionObserver((entries) => {

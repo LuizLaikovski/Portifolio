@@ -7,7 +7,7 @@ function PartTwo() {
         <>
             <section className="BoxOne">
                 <div className="containerOne">
-                    <h1 className="TitleSkill">Minhas Skills</h1>
+                    <h1 className="TitleSkill">Minhas Skill's</h1>
                     <div className="fx"></div>
                     <section className="MySKILLS">
                         <h1 className="tt1">Linguagens e FrameWorks:</h1>
@@ -20,12 +20,13 @@ function PartTwo() {
                         <h1 className="tt1">Outras Tecnologias:</h1>
                         <FontAwesomeIcon icon={faGit} className="icons GIT"/>
                         <FontAwesomeIcon icon={faGithub} className="icons GITHUB"/>
+                        <h1 className="tt1"></h1>
                     </section>
                 </div>
             </section>
         </>
-    )
-};
+    );
+}
 
 let myObserver = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
