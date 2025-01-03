@@ -1,4 +1,5 @@
 import './PartTwo.css';
+import Risco from '../Risco/Risco';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; // Importa o componente FontAwesome
 import { faCentercode, faCodepen, faCss3, faCss3Alt, faGit, faGithub, faHtml5, faJava, faJs, faPython, faReact } from '@fortawesome/free-brands-svg-icons'; // Importa o ícone específico
 
@@ -8,7 +9,7 @@ function PartTwo() {
             <section className="BoxOne">
                 <div className="containerOne">
                     <h1 className="TitleSkill">Minhas Skill's</h1>
-                    <div className="fx"></div>
+                    <Risco altura='55' largura='2' margens='30'/>
                     <section className="MySKILLS">
                         <h1 className="tt1">Linguagens e FrameWorks:</h1>
                         <FontAwesomeIcon icon={faHtml5} className="icons HTML5"/>

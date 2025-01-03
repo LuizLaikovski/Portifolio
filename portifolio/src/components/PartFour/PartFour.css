@@ -1,0 +1,11 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.Partf {
+    width: 100dvw;
+    height: 90dvh;
+    background-color: aqua;
+    display: flex;
+}

@@ -1,6 +1,7 @@
 import './PartTree.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAward } from '@fortawesome/free-solid-svg-icons';
+import Risco from '../Risco/Risco';
 
 
 function PartTree() {
@@ -19,7 +20,7 @@ function PartTree() {
             <section className="BoxTwo">
                 <div className="containerr">
                     <h2 className="tt2">Soft Skill's</h2>
-                    <div className="fxx"></div>
+                    <Risco altura='60' largura='2' margens='55'/>
                     <ul className="custom-list">
                         {SoftSkills.map((item, index) => (
                             <l1 key={index} className="list-item">

@@ -10,8 +10,8 @@ function Faixa() {
                     <li href="#SobreMim">Sobre Mim</li>
                     <li>Minhas Skill's</li>
                     <li>Soft Skill's</li>
-                    <li>Sobre Mim</li>
-                    <li>Sobre Mim</li>
+                    <li>Meus Serviços</li>
+                    <li href="#contato">Contato</li>
                 </ul>
             </header>
         </>

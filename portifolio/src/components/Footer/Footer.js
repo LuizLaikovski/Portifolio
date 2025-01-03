@@ -7,7 +7,7 @@ import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
 function Footer() {
     return (
         <>
-            <footer className="FOOTER">
+            <footer className="FOOTER" id="contato">
                 <section className="litleText">
                     <h1>Entre em Contato</h1>
                     <article>Meu objetivo é apoiar você na criação de soluções digitais personalizadas que impulsionem o sucesso do seu negócio. Vamos conversar sobre suas necessidades e encontrar as melhores estratégias para alcançar seus objetivos?</article>
@@ -27,7 +27,7 @@ function Footer() {
                     </div>
                     <div className="linksAlling">
                         <FontAwesomeIcon icon={faInstagram} className="iconsMidia"/>
-                        <a className="midiaLinks" href="https://www.instagram.com">instagram: @lz.lvk</a>
+                        <a className="midiaLinks" href="https://www.instagram.com">instagram: @luizlaikovski_</a>
                     </div>
                     <div className="locationSection"> 
                         <FontAwesomeIcon icon={faLocationDot} className="iconsMidia" />
