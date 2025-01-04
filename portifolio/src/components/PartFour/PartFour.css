@@ -6,6 +6,46 @@
 .Partf {
     width: 100dvw;
     height: 90dvh;
-    background-color: aqua;
+    background-image: linear-gradient(rgb(202, 202, 202), black);
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.division {
+    width: 80dvw;
+    height: 70dvh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.habilits {
+    height: 30dvh;
+    width: 25dvw;
+    background-color: rgb(173, 173, 173);
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    transition: 0.3s;
+}
+
+.habilits:hover {
+    transform: scale(106%);
+}
+
+.habilits p {
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: center;
+}
+
+.icon {
+    font-size: 2.1rem;
+    margin: 5px 5px 0 5px;
 }
