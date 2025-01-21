@@ -13,6 +13,7 @@
     flex-direction: column;
     margin-top: 40dvh;
     width: 60dvw;
+    opacity: 100%;
 }
 
 .TituloPrincipal {
