@@ -13,12 +13,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-  margin: 10dvh 0 0 0;
 }
 
 .Section1 {
-  margin-top: -10dvh;
   opacity: 100%;
   background: url('images/WallPaper.jpeg');
   background-position: center;
@@ -27,14 +24,30 @@ body {
   width: 100dvw;
 }
 
-.NAVBAR {
-  all: unset;
-  height: 20%;
-  width: 100dvw;
-}
-
 .Section2 {
   height: 270dvh;
   width: 100dvw;
   background-color: rgb(202, 202, 202);
+}
+
+
+.IImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30dvw;
+  height: 60dvh;
+  display: block;
+  margin-top: 40dvh;
+  background: none;
+  border: solid white 0px;
+  border-radius: 100%;
+  backdrop-filter: blur(20px);
+  margin-left: 3dvw;
+}
+
+.MyImage {
+  height:60dvh;
+  border-radius: 100%;
+  border: solid white 2px;
 }

@@ -27,7 +27,7 @@ function Footer() {
                     </div>
                     <div className="linksAlling">
                         <FontAwesomeIcon icon={faInstagram} className="iconsMidia"/>
-                        <a className="midiaLinks" href="https://www.instagram.com">instagram: @luizlaikovski_</a>
+                        <a className="midiaLinks" href="https://www.instagram.com/luizlaikovski_">instagram: @luizlaikovski_</a>
                     </div>
                     <div className="locationSection"> 
                         <FontAwesomeIcon icon={faLocationDot} className="iconsMidia" />

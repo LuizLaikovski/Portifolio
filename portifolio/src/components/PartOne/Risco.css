@@ -12,10 +12,11 @@
     align-items: center;
     flex-direction: column;
     margin-top: 40dvh;
+    width: 60dvw;
 }
 
 .TituloPrincipal {
-    font-size: 4.3rem;
+    font-size: 3.7rem;
     font-weight: 700;
     overflow: hidden;
     white-space: nowrap;
@@ -75,7 +76,7 @@
     height: 35dvh;
     width: 50dvw;
     text-align: center;
-    font-size: 23px;
+    font-size: 20px;
     color: white;
     transform: translateY(+30%);
     /* opacity: 0; */

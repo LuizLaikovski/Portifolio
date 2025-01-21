@@ -11,11 +11,12 @@ function App() {
   return (
     <>
       <section className="Section1">
-        <div className="NAVBAR">
-          <Faixa></Faixa>
-        </div>
-        <div className="CaixaOne" id="SobreMim">
+        <Faixa></Faixa>
+        <div className="CaixaOne">
           <PartOne></PartOne>
+          <div className='IImage reveal'>  
+            <img src="/eu.png" className='MyImage'></img>
+          </div>
         </div>
       </section>
       <section className="Section2">
