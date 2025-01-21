@@ -23,20 +23,16 @@
 .TitleSkill {
     color: black;
     font-size: 70px;
-    transform: translateY(+20%);
-    opacity: 0;
-    filter: blur(30px);
+    /* transform: translateY(+20%); */
+    /* opacity: 0; */
+    /* filter: blur(30px); */
     transition: all 0.3s;
 }
 
 .fx {
-    height: 55dvh;
-    width: 2px;
-    background-color: black;
-    margin: 0 30px 0 30px;
-    transform: translateY(+20%);
-    opacity: 1;
-    filter: blur(30px);
+    /* transform: translateY(+20%); */
+    /* opacity: 0; */
+    /* filter: blur(30px); */
     transition: all 0.3s;
 }
 
@@ -50,17 +46,17 @@
 
 .tt1 {
     font-size: 30px;
-    transform: translateY(+20%);
-    opacity: 0;
-    filter: blur(30px);
+    /* transform: translateY(+20%); */
+    /* opacity: 0; */
+    /* filter: blur(30px); */
     transition: all 0.3s;
 }
 
 .icons {
-    margin: 0 15px 0 15px;
-    transform: translateY(+20%);
-    opacity: 0;
-    filter: blur(30px);
+    margin: 20px 15px 0 15px;
+    /* transform: translateY(+20%); */
+    /* opacity: 0; */
+    /* filter: blur(30px); */
     transition: all 0.3s;
 }
 
@@ -95,11 +91,4 @@
 
 .GITHUB:hover {
     color: #000000;
-}
-
-.Visible {
-    opacity: 1;
-    filter: blur(0);
-    transition: all 0.3s;
-    transform: translateY(0%);
 }

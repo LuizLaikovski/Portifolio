@@ -25,16 +25,16 @@
     background-color: black;
     margin: 0 55px 0 55px;
     transform: translateY(+20%);
-    opacity: 0;
-    filter: blur(30px);
+    /* opacity: 0; */
+    /* filter: blur(30px); */
     transition: all 0.3s;
 }
 
 .tt2 {
     font-size: 70px;
     transform: translateY(+20%);
-    opacity: 0;
-    filter: blur(30px);
+    /* opacity: 0; */
+    /* filter: blur(30px); */
     transition: all 0.3s;
 }
 
@@ -51,8 +51,8 @@
     font-size: 25px;
     transition: 0.3s all;
     transform: translateY(+20%);
-    opacity: 0;
-    filter: blur(30px);
+    /* opacity: 0; */
+    /* filter: blur(30px); */
     transition: all 0.3s;
 }
 
@@ -67,8 +67,8 @@
     margin-right: 10px;
     font-size: 30px;
     transform: translateY(+20%);
-    opacity: 0;
-    filter: blur(30px);
+    /* opacity: 0; */
+    /* filter: blur(30px); */
     transition: all 0.3s;
 }
 

@@ -10,7 +10,7 @@ function PartFour() {
         <>
             <section className="Partf">
                 <main className="division">
-                    <div className="habilits">
+                    <div className="habilits reveal">
                         <h1 style={{marginTop: '10px'}}>Paroquia São José Operário</h1>
                         <RiscoH largura='20' grossura='0.8' margens='20'/>
                         <p>Esse é um projeto teve inicio no final do ano de 2024. Ele tem como objetivo apresentar os ministério da paróquia, para os fiéis que a frequentam. Tecnologias Usadas: </p>
@@ -20,7 +20,7 @@ function PartFour() {
                             <FontAwesomeIcon icon={faJs} className="icon"/>
                         </div>
                     </div>
-                    <div className="habilits">
+                    <div className="habilits reveal">
                         <h1 style={{marginTop: '10px'}}>Projeto com Flask</h1>
                         <RiscoH largura='20' grossura='0.8' margens='20'/>
                         <p>Esse é um Projeto onde faço ligação de um Banco de Dados com FrontEnd usando o Python e a biblioteca Flask. Tecnologias Usadas: </p>
@@ -30,22 +30,11 @@ function PartFour() {
                             <FontAwesomeIcon icon={faCss3Alt} className="icon" />
                         </div>
                     </div>
-                    <div className="habilits">
+                    <div className="habilits reveal">
                         <h1 style={{marginTop: '10px'}}>Sistema de Estoque</h1>
                         <RiscoH grossura='0.8' margens='20' largura='20'/>
                         <p>Nesse pequeno projeto criei um sistema de estoque. Onde possui a funcionabilidade de Adcionar, Listar, Editar(preço, quantidade e nome) e deletar o produto ou apenas uma quantidade </p>
                         <FontAwesomeIcon icon={faPython} className="icon" />
-                    </div>
-                    <div className="habilits">
-                        <h1 style={{marginTop: '10px'}}>Testes</h1>
-                        <RiscoH largura='20' grossura='0.8' margens='20'/>
-                    </div>
-                    <div className="habilits">
-                        <h1 style={{marginTop: '10px'}}>Testes</h1>
-                        <RiscoH largura='20' grossura='0.8' margens='20'/></div>    
-                    <div className="habilits">
-                        <h1 style={{marginTop: '10px'}}>Testes</h1>
-                        <RiscoH largura='20' grossura='0.8' margens='20'/>
                     </div>
                 </main>
             </section>
