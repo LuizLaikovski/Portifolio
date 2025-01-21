@@ -42,12 +42,23 @@ body {
   background: none;
   border: solid white 0px;
   border-radius: 100%;
-  backdrop-filter: blur(20px);
   margin-left: 3dvw;
+  cursor: pointer;
+  transition: 0.5s;
 }
 
 .MyImage {
   height:60dvh;
   border-radius: 100%;
   border: solid white 2px;
+  cursor: pointer;
+  transition: 0.5s; 
+}
+
+.IImage:hover {
+  transform: scale(110%);
+}
+
+.MyImage:hover {
+  transform: scale(110%);
 }
