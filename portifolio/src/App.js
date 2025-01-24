@@ -12,7 +12,7 @@ function App() {
     <>
       <section className="Section1">
         <Faixa></Faixa>
-        <div className="CaixaOne">
+        <div className="CaixaOne" id='SobreMim'>
           <PartOne></PartOne>
           <div className='IImage reveal'>  
             <img src="/eu.png" className='MyImage'></img>

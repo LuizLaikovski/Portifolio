@@ -34,7 +34,7 @@ function PartTree() {
 
     return (
         <>
-            <section className="BoxTwo">
+            <section className="BoxTwo" id='SoftSkill'>
                 <div className="containerr">
                     <h2 className="tt2 reveal">Soft Skill's</h2>
                     <Risco altura='60' largura='2' margens='55' className='reveal'/>

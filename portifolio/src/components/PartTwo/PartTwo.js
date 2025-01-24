@@ -22,7 +22,7 @@ function PartTwo() {
     }, []);
 
     return (
-        <section className="BoxOne">
+        <section className="BoxOne" id='Skills'>
             <div className="containerOne ">
                 <h1 className="TitleSkill reveal">Minhas Skill's</h1>
                 <Risco altura="55" largura="2" margens="30" className="fx" />

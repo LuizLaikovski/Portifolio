@@ -8,7 +8,7 @@ import { faCss, faCss3, faCss3Alt, faHtml5, faJs, faPython } from '@fortawesome/
 function PartFour() {
     return (
         <>
-            <section className="Partf">
+            <section className="Partf" id='MeusServicos'>
                 <main className="division">
                     <div className="habilits reveal">
                         <h1 style={{marginTop: '10px'}}>Paroquia São José Operário</h1>
