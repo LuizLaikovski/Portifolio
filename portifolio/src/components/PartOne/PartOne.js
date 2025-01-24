@@ -4,18 +4,18 @@ import ScrollReveal from "scrollreveal";
 
 function PartOne() {
 
-    useEffect(() => {
-        const sr = ScrollReveal({
-          origin: "bottom", // Origem da animação (top, bottom, left, right)
-          distance: "50px", // Distância que o elemento percorre
-          duration: 300,   // Duração da animação em milissegundos
-          reset: true,      // Define se a animação será repetida ao rolar a página
-        });
+    // useEffect(() => {
+    //     const sr = ScrollReveal({
+    //       origin: "bottom", // Origem da animação (top, bottom, left, right)
+    //       distance: "50px", // Distância que o elemento percorre
+    //       duration: 300,   // Duração da animação em milissegundos
+    //       reset: true,      // Define se a animação será repetida ao rolar a página
+    //     });
     
-        sr.reveal(".reveal", {
-          interval: 0, // Intervalo entre as animações de múltiplos elementos
-        });
-    }, []);
+    //     sr.reveal(".reveal", {
+    //       interval: 0, // Intervalo entre as animações de múltiplos elementos
+    //     });
+    // }, []);
 
 
     return (
