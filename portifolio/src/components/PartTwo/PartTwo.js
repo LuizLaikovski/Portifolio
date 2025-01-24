@@ -11,7 +11,7 @@ function PartTwo() {
             const sr = ScrollReveal({
                 origin: 'bottom',
                 distance: '50px',
-                duration: 3000,
+                duration: 300,
                 reset: true,
             });
 
