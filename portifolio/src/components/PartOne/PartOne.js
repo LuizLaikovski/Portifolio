@@ -8,7 +8,7 @@ function PartOne() {
         const sr = ScrollReveal({
           origin: "bottom", // Origem da animação (top, bottom, left, right)
           distance: "50px", // Distância que o elemento percorre
-          duration: 300,   // Duração da animação em milissegundos
+          duration: 100,   // Duração da animação em milissegundos
           reset: true,      // Define se a animação será repetida ao rolar a página
         });
     
