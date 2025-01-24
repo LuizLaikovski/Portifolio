@@ -21,7 +21,7 @@ function Faixa() {
                     <li onClick={() => scrollToElements('SoftSkill')}>Soft Skill's</li>
                     <li onClick={() => scrollToElements('MeusServicos')}>Meus Serviços</li>
                     <li onClick={() => scrollToElements('contato')}>Contato</li>
-                    <li><a href="/Curriculo.docx" download="Curriculo.docx">TESTE</a></li>
+                    <li><a href="/Curriculo.docx" download="Curriculo.docx">teste</a></li>
                 </ul>
             </header>
         </>
