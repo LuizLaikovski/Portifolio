@@ -32,12 +32,12 @@
 
 .NavBar {
     height: 15dvh;
-    width: 50dvw;
+    width: 60dvw;
     text-decoration: none;
     list-style: none;
     display: flex;
     align-items: center;
-    margin-left: 32dvw;
+    margin-left: 24dvw;
     white-space: nowrap;
 }
 
@@ -46,6 +46,11 @@
     font-size: 18px;
     cursor: pointer;
     transition: 0.3s;
+}
+
+.NavBar a {
+    text-decoration: none;
+    color: white;
 }
 
 .NavBar li:hover {
