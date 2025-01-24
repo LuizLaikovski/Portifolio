@@ -13,7 +13,7 @@ function PartOne() {
         });
     
         sr.reveal(".reveal", {
-          interval: 0, // Intervalo entre as animações de múltiplos elementos
+          interval: 50, // Intervalo entre as animações de múltiplos elementos
         });
     }, []);
 
