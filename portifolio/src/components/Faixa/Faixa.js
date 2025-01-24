@@ -1,5 +1,6 @@
 import './Faixa.css';
 import logoInsta from './InstagramLogo.png';
+import './Curriculo.docx';
 
 function scrollToElements(id) {
     let target = document.getElementById(id);
@@ -20,6 +21,7 @@ function Faixa() {
                     <li onClick={() => scrollToElements('SoftSkill')}>Soft Skill's</li>
                     <li onClick={() => scrollToElements('MeusServicos')}>Meus Serviços</li>
                     <li onClick={() => scrollToElements('contato')}>Contato</li>
+                    <li><a href="/Curriculo.docx" download="Curriculo.docx">TESTE</a></li>
                 </ul>
             </header>
         </>

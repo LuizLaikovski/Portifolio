@@ -38,6 +38,7 @@
     display: flex;
     align-items: center;
     margin-left: 35dvw;
+    white-space: nowrap;
 }
 
 .NavBar li {
