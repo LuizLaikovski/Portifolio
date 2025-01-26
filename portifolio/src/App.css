@@ -64,3 +64,25 @@ body {
 .MyImage:hover {
   transform: scale(110%);
 }
+
+.LOGOO {
+  color: aqua;
+}
+
+/* PORTABILIDADE */
+@media (max-width: 1024px) {
+  body {
+    width: 100dvw;
+    overflow-x: hidden;
+  }
+
+  .IImage {
+    width: 30dvw;
+  }
+
+  .MyImage {
+    width: 30dvw;
+    height: 30dvw;
+    margin-left: 10dvw;
+  }
+}

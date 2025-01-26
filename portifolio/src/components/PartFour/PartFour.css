@@ -1,3 +1,8 @@
+body {
+    width: 100dvw;
+    overflow-x: hidden;
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -49,4 +54,11 @@
 .icon {
     font-size: 2.1rem;
     margin: 5px 5px 0 5px;
+}
+
+/* RESPONSIVIDADE */
+@media (max-width: 1024px) {
+    .habilits {
+        width: 24dvw;
+    }
 }

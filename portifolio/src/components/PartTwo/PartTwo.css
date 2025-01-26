@@ -1,3 +1,8 @@
+body {
+    width: 100dvw;
+    overflow-x: hidden;
+}
+
 * {
     margin: 0 0 0 0;
     padding: 0 0 0 0;
@@ -23,16 +28,10 @@
 .TitleSkill {
     color: black;
     font-size: 70px;
-    /* transform: translateY(+20%); */
-    /* opacity: 0; */
-    /* filter: blur(30px); */
     transition: all 0.3s;
 }
 
 .fx {
-    /* transform: translateY(+20%); */
-    /* opacity: 0; */
-    /* filter: blur(30px); */
     transition: all 0.3s;
 }
 
@@ -46,17 +45,12 @@
 
 .tt1 {
     font-size: 30px;
-    /* transform: translateY(+20%); */
-    /* opacity: 0; */
-    /* filter: blur(30px); */
     transition: all 0.3s;
+    white-space: nowrap;
 }
 
 .icons {
     margin: 20px 15px 0 15px;
-    /* transform: translateY(+20%); */
-    /* opacity: 0; */
-    /* filter: blur(30px); */
     transition: all 0.3s;
 }
 
