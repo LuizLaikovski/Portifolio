@@ -56,6 +56,14 @@ body {
     margin: 5px 5px 0 5px;
 }
 
+.treeBox p {
+    font-size: 1.1dvw;
+}
+
+.treeBox h1 {
+    font-size: 1.3dvw;
+}
+
 /* RESPONSIVIDADE */
 @media (max-width: 1024px) {
     .habilits {

@@ -1,3 +1,7 @@
+html {
+  overflow-x: hidden;
+}
+
 body {
   width: 100dvw;
   overflow-x: hidden;
@@ -7,6 +11,7 @@ body {
   margin: 0 0 0 0;
   padding: 0 0 0 0;
   box-sizing: border-box;
+  /* border: red 0.5px solid; */
 }
 
 .CaixaOne {

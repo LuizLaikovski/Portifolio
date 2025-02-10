@@ -16,6 +16,7 @@ body {
     justify-content: end;
     align-items: center;
     flex-direction: column;
+    overflow: hidden;
 }
 
 .midiaLinks {
@@ -43,12 +44,18 @@ body {
     transform: scale(105%);
 }
 
-.alling {
-    width: 100dvw;
+.allingLinks {
+    width: 28dvw;
     justify-content: left;
-    margin-left: 90px;
-    margin-bottom: 60px;
+    margin-top: 25dvh;
 }
+
+.allign {
+    height: 65dvh;
+    width: 85dvw;
+    display: flex;
+}
+
 
 .locationSection {
     color: whitesmoke;
@@ -63,10 +70,13 @@ body {
     color: whitesmoke;
     text-align: center;
     width: 35dvw;
-    
 }
 
 .litleText h1 {
-    font-size: 40px;
+    font-size: 3dvw;
     margin-bottom: 7px;
+}
+
+.litleText p {
+    font-size: 1dvw;
 }
