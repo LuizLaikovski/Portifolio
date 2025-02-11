@@ -86,3 +86,9 @@ body {
 .GITHUB:hover {
     color: #000000;
 }
+
+@media (max-width: 769px) {
+    .tt1 {
+        font-size: 25px;
+    }
+}

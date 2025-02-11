@@ -80,3 +80,10 @@ body {
 .litleText p {
     font-size: 1dvw;
 }
+
+@media (max-width: 769px) {
+
+    .midiaLinks {
+        font-size: 15px;
+    }
+}
