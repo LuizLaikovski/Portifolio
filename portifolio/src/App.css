@@ -91,3 +91,28 @@ body {
     margin-left: 10dvw;
   }
 }
+
+@media (max-width: 426px) {
+  .CaixaOne {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .MyImage {
+    width: 60dvw;
+    height: 60dvw;
+    margin: 0 0 0 0;
+  }
+
+  .IImage {
+    width: 60dvw;
+    height: 60dvw;
+    margin: 17dvh 0 0 0;
+  }
+
+  .Section1 {
+    height: 130dvh;
+  }
+}

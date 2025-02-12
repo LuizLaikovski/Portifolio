@@ -2,6 +2,7 @@ import './PartTwo.css';
 import React, { useEffect } from 'react';
 import ScrollReveal from 'scrollreveal';
 import Risco from '../Risco/Risco';
+import RiscoH from '../RiscoH/RiscoH';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHtml5, faCss3Alt, faJs, faReact, faJava, faPython, faGit, faGithub } from '@fortawesome/free-brands-svg-icons';
 
@@ -26,6 +27,7 @@ function PartTwo() {
             <div className="containerOne ">
                 <h1 className="TitleSkill reveal">Minhas Skill's</h1>
                 <Risco altura="55" largura="2" margens="30" className="fx" />
+                <RiscoH largura={50} grossura={2} margens="20" className="fxH"/> 
                 <section className="MySKILLS">
                     <h1 className="tt1 reveal">Linguagens e FrameWorks:</h1>
                     <FontAwesomeIcon icon={faHtml5} className="icons HTML5" />

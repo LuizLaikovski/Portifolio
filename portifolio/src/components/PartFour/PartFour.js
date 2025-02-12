@@ -12,7 +12,7 @@ function PartFour() {
                 <main className="division">
                     <div className="habilits reveal treeBox">
                         <h1>Paroquia São José Operário</h1>
-                        <RiscoH largura='20' grossura='0.8' margens='20'/>
+                        <RiscoH largura='20' grossura='0.8' margens='8'/>
                         <p>Esse é um projeto teve inicio no final do ano de 2024. Ele tem como objetivo apresentar os ministério da paróquia, para os fiéis que a frequentam. Tecnologias Usadas: </p>
                         <div>
                             <FontAwesomeIcon icon={faHtml5} className="icon"/>
@@ -22,7 +22,7 @@ function PartFour() {
                     </div>
                     <div className="habilits reveal treeBox">
                         <h1>Projeto com Flask</h1>
-                        <RiscoH largura='20' grossura='0.8' margens='20'/>
+                        <RiscoH largura='20' grossura='0.8' margens='15'/>
                         <p>Esse é um Projeto onde faço ligação de um Banco de Dados com FrontEnd usando o Python e a biblioteca Flask. Tecnologias Usadas: </p>
                         <div>
                             <FontAwesomeIcon icon={faPython} className="icon" />
@@ -32,7 +32,7 @@ function PartFour() {
                     </div>
                     <div className="habilits reveal treeBox">
                         <h1>Sistema de Estoque</h1>
-                        <RiscoH largura='20' grossura='0.8' margens='20'/>
+                        <RiscoH largura='20' grossura='0.8' margens='12'/>
                         <p>Nesse pequeno projeto criei um sistema de estoque. Onde possui a funcionabilidade de Adcionar, Listar, Editar(preço, quantidade e nome) e deletar o produto ou apenas uma quantidade </p>
                         <FontAwesomeIcon icon={faPython} className="icon" />
                     </div>

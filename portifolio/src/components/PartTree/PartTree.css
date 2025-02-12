@@ -83,3 +83,22 @@ body {
     transition: all 0.3s;
     transform: translateY(0%);
 }
+
+.risocH {
+    display: none;
+}
+
+@media (max-width: 426px) {
+    .containerr {
+        flex-direction: column;
+    }
+
+    .risco {
+        display: none;
+        opacity: 0;
+    }
+
+    .risocH {
+        display: block;
+    }
+}

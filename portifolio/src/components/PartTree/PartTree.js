@@ -4,6 +4,7 @@ import ScrollReveal from 'scrollreveal';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAward } from '@fortawesome/free-solid-svg-icons';
 import Risco from '../Risco/Risco';
+import RiscoH from '../RiscoH/RiscoH';
 
 
 function PartTree() {
@@ -37,7 +38,8 @@ function PartTree() {
             <section className="BoxTwo" id='SoftSkill'>
                 <div className="containerr">
                     <h2 className="tt2 reveal">Soft Skill's</h2>
-                    <Risco altura='60' largura='2' margens='55' className='reveal'/>
+                    <Risco altura='60' largura='2' margens='55' className='risco reveal'/>
+                    <RiscoH largura="70" grossura="2" margens={20} className="riscoH reveal" />
                     <ul className="custom-list">
                         {SoftSkills.map((item, index) => (
                             <l1 key={index} className="list-item reveal">
