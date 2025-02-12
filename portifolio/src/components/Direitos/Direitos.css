@@ -7,3 +7,24 @@
 .TitleD {
     color: whitesmoke;
 }
+
+@media (max-width: 426px) {
+    .TitleD {
+        width: 70dvw;
+    }
+
+    .containerrrr {
+        width: 300px;
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 376px) {
+    .containerrrr {
+        width: 290px;
+    }
+
+    .TitleD {
+        width: 290px;
+    }
+}

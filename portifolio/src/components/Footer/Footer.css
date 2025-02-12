@@ -87,3 +87,38 @@ body {
         font-size: 15px;
     }
 }
+
+@media (max-width: 426px) {
+    .litleText {
+        width: 85dvw;
+    }
+
+    .FOOTER {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .allign {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+
+    .allingLinks {
+        width: 85dvw;
+        margin-top: 0;
+    }
+
+    .litleText h1 {
+        font-size: 24px;
+    }
+
+}
+
+@media (max-width: 376px) {
+    .litleText article {
+        font-size: 12.7px;
+    }
+}

@@ -96,3 +96,14 @@ body {
         margin-top: 10px;
     }
 }
+
+@media (max-width: 376px) {
+    .division {
+        width: 90dvw;
+    }
+
+    .habilits {
+        width: 40dvw;
+        margin: 0 7px 0 7px;
+    }
+}

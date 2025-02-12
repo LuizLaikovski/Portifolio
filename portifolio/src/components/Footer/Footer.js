@@ -36,9 +36,7 @@ function Footer() {
                         <article>Meu objetivo é apoiar você na criação de soluções digitais personalizadas que impulsionem o sucesso do seu negócio. Vamos conversar sobre suas necessidades e encontrar as melhores estratégias para alcançar seus objetivos?</article>
                     </section>
                 </main>    
-                <div>
-                    <Direitos />    
-                </div>
+                <Direitos />    
             </footer>
         </>
     );
