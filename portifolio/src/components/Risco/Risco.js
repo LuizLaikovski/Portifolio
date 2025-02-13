@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './Risco.css';
 
 function Risco({largura, altura, margens}) {
     let [size, setSize] = useState({width: 100, height: 100});
@@ -12,7 +13,7 @@ function Risco({largura, altura, margens}) {
                 backgroundColor: `black`,
                 marginLeft : `${margens}px`,
                 marginRight : `${margens}px`
-            }}></div>
+            }} className='risco'></div>
         </>
     );
 }

@@ -1,0 +1,9 @@
+.risco {
+    display: block;
+}
+
+@media (max-width: 426px) {
+    .risco {
+        display: none;
+    }
+}

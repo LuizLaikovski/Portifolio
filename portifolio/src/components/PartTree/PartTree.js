@@ -38,7 +38,7 @@ function PartTree() {
             <section className="BoxTwo" id='SoftSkill'>
                 <div className="containerr">
                     <h2 className="tt2 reveal">Soft Skill's</h2>
-                    <Risco altura='60' largura='2' margens='55' className='risco reveal'/>
+                    <Risco altura='60' largura='2' margens='55' className='reveal'/>
                     <ul className="custom-list">
                         {SoftSkills.map((item, index) => (
                             <l1 key={index} className="list-item reveal">
