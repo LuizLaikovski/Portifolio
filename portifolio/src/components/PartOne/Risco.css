@@ -126,3 +126,16 @@ body {
         height: 300px;
     }
 }
+
+@media (max-width: 321px) {
+    .txtxtxtxtxt {
+        width: 60dvw;
+    }
+
+    .TextBox {
+        width: 60dvw;
+        height: 300px;
+        display: flex;
+        text-align: center;
+    }
+}

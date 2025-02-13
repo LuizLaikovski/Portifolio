@@ -116,7 +116,24 @@ body {
     }
 
     .tt1 {
-        width: 300px;
+        width: 320px;
         margin: 0 0 0 0;
+    }
+}
+
+@media (max-width: 321px) {
+    .containerOne {
+        width: 100dvw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .MySKILLS {
+        width: 100dvw;
+    }
+
+    .tt1 {
+        font-size: 23px;
     }
 }

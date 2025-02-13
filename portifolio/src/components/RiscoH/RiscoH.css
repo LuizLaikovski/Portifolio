@@ -1,0 +1,10 @@
+.RiscoH {
+    display: block;
+}
+
+@media (max-width: 321px) {
+    .RiscoH {
+        display: none;
+    }
+}
+

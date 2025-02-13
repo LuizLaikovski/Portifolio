@@ -1,3 +1,4 @@
+import './RiscoH.css';
 import { useState } from "react";
 
 function RiscoH({largura, grossura, margens}) {
@@ -11,7 +12,7 @@ function RiscoH({largura, grossura, margens}) {
                 backgroundColor: 'black',
                 marginTop: `${margens}px`,
                 marginBottom: `${margens}px`
-            }}></div>
+            }} className='RiscoH'></div>
         </>
     );
 }

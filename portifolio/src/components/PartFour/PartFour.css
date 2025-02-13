@@ -107,3 +107,10 @@ body {
         margin: 0 7px 0 7px;
     }
 }
+
+
+@media (max-width: 321px) {
+    .habilits h1 {
+        font-size: 12px;
+    }
+}
