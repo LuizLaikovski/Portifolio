@@ -16,9 +16,7 @@ function Faixa() {
             <header className="Faixa">
                 <a className="LOGOO" href="https://github.com/luizlaikovski">Luiz Laikovski | Dev</a>
                 <div className='mobile-menu'>
-                    <div className='line1'></div>
-                    <div className='line2'></div>
-                    <div className='line3'></div>
+                    <button onClick={clickNavBar()} className="botaoAF">☰</button>
                 </div>
                 <ul className="NavBar">
                     <li onClick={() => scrollToElements('SobreMim')}>Sobre Mim</li>
@@ -33,50 +31,34 @@ function Faixa() {
     );
 }
 
-class MobileNavBar {
-    constructor(mobileMenu, navList, navLinks) {
-        this.mobileMenu = document.querySelector(mobileMenu);
-        this.navList = document.querySelector(navList);
-        this.navLinks = document.querySelectorAll(navLinks);
-        this.activeClass = "active";
+function clickNavBar() {
+    let menu = document.querySelector(".NavBar");
+    // if (menu.style.display == "none") {
+    //     menu.style.display = "block";
+    //     console.log("display block");
+    // }  else if (menu.style.display == "block") {
+    //     menu.style.display = "none";
+    //     console.log("display none");
+    // } else {
+    //     console.log("POPO");
+    // }
 
-        this.handleClick = this.handleClick.bind(this);
+
+    if (!menu) {
+        console.error("Elemento .NavBar não encontrado!");
+        return;
     }
 
+    let computedStyle = window.getComputedStyle(menu).display;
 
-    animateLinks() {
-        this.navLinks.forEach((link, index) => {
-        link.style.animation
-            ? (link.style.animation = "")
-            : (link.style.animation = `navLinkFade 0.5s ease forwards ${
-                index / 7 + 0.2
-            }s`);
-        });
-    }
-
-    handleClick() {
-        this.navList.classList.toggle(this.activeClass);
-        this.animateLinks();
-    }
-
-    addClickEvent() {
-        this.mobileMenu.addEventListener("click", this.handleClick);
-    }
-
-    init () {
-        if (this.mobileMenu) {
-            this.addClickEvent();
-        }
-
-        return this;
+    if (computedStyle === "none") {
+        menu.style.display = "block";
+        console.log("display block");
+    } else {
+        menu.style.display = "none";
+        console.log("display none");
     }
 }
 
-const mobileNavBar = new MobileNavBar(
-    ".mobile-menu",
-    ".NavBar",
-    ".NavBar li"
-);
-mobileNavBar.init();
 
 export default Faixa
