@@ -28,15 +28,19 @@ function PartTwo() {
                 <Risco altura="55" largura="2" margens="30" className="fx" />
                 <section className="MySKILLS">
                     <h1 className="tt1 reveal">Linguagens e FrameWorks:</h1>
-                    <FontAwesomeIcon icon={faHtml5} className="icons HTML5" />
-                    <FontAwesomeIcon icon={faCss3Alt} className="icons CSS3" />
-                    <FontAwesomeIcon icon={faJs} className="icons JS" />
-                    <FontAwesomeIcon icon={faReact} className="icons REACT" />
-                    <FontAwesomeIcon icon={faJava} className="icons JAVA" />
-                    <FontAwesomeIcon icon={faPython} className="icons PYTHON" />
+                    <div>
+                        <FontAwesomeIcon icon={faHtml5} className="icons HTML5" />
+                        <FontAwesomeIcon icon={faCss3Alt} className="icons CSS3" />
+                        <FontAwesomeIcon icon={faJs} className="icons JS" />
+                        <FontAwesomeIcon icon={faReact} className="icons REACT" />
+                        <FontAwesomeIcon icon={faJava} className="icons JAVA" />
+                        <FontAwesomeIcon icon={faPython} className="icons PYTHON" />
+                    </div>
                     <h1 className="tt1 reveal">Outras Tecnologias:</h1>
-                    <FontAwesomeIcon icon={faGit} className="icons GIT" />
-                    <FontAwesomeIcon icon={faGithub} className="icons GITHUB" />
+                    <div>
+                        <FontAwesomeIcon icon={faGit} className="icons GIT" />
+                        <FontAwesomeIcon icon={faGithub} className="icons GITHUB" />
+                    </div>
                 </section>
             </div>
         </section>

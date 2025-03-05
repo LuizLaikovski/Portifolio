@@ -6,6 +6,7 @@ body {
 * {
     margin: 0 0 0 0;
     padding: 0 0 0 0;
+    /* border: red 0.5px solid; */
 }
 
 .BoxOne {
@@ -36,6 +37,10 @@ body {
 }
 
 .MySKILLS {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
     height: 50dvh;
     width: 35dvw;
     font-size: 60px;

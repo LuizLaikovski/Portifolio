@@ -43,7 +43,7 @@ body {
   justify-content: center;
   align-items: center;
   width: 30dvw;
-  height: 60dvh;
+  height: 45dvh;
   display: block;
   margin-top: 40dvh;
   background: none;
@@ -55,7 +55,7 @@ body {
 }
 
 .MyImage {
-  height:60dvh;
+  height: 45dvh;
   border-radius: 100%;
   border: solid white 2px;
   cursor: pointer;

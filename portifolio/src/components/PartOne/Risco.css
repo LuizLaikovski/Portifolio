@@ -17,8 +17,7 @@ body {
 
 .container {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
     flex-direction: column;
     margin-top: 40dvh;
     width: 60dvw;
@@ -91,6 +90,7 @@ body {
 
 .txtxtxtxtxt {
     margin-top: -50px;
+    text-align: left;
 }
 
 @media (max-width: 1024px) {
