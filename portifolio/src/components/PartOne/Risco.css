@@ -33,7 +33,7 @@ body {
     transition: all 0.5s;
     font-family: "Newsreader", serif;
     border-right: solid rgb(255, 255, 255) 3.5px;
-    width: 11ch;
+    width: 13ch;
     animation: binkMaker 0.6s infinite, typing 5s infinite steps(22);
 }
 
@@ -53,11 +53,11 @@ body {
     }
 
     40% {
-        width: 11ch;
+        width: 13ch;
     }
 
     60% {
-        width: 11ch;
+        width: 13ch;
     }
 
     90% {
@@ -65,7 +65,7 @@ body {
     }
 
     100% {
-        width: 0ch;
+        width: 0;
     }
 }
 

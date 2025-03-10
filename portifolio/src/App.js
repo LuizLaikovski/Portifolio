@@ -7,7 +7,6 @@ import Footer from './components/Footer/Footer.js';
 import PartFour from './components/PartFour/PartFour.js';
 
 function App() {
-  
   return (
     <>
       <section className="Section1">
