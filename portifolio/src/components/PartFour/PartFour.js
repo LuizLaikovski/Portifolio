@@ -14,12 +14,7 @@ function PartFour() {
                         <div className="habilits reveal treeBox">
                             <h1>Paroquia São José Operário</h1>
                             <RiscoH largura='20' grossura='0.8' margens='8'/>
-                            <p>Esse é um projeto teve inicio no final do ano de 2024. Ele tem como objetivo apresentar os ministério da paróquia, para os fiéis que a frequentam, este projeto ainda está em processo de desenvolvimento, e no momento está parado. Tecnologias Usadas: </p>
-                            <div>
-                                <FontAwesomeIcon icon={faHtml5} className="icon"/>
-                                <FontAwesomeIcon icon={faCss3Alt} className="icon"/>
-                                <FontAwesomeIcon icon={faJs} className="icon"/>
-                            </div>
+                            <img src='/Opera Instantâneo_2025-03-10_135335_paroquia-sao-jose-operario.vercel.app.png' className='imageOneExemple' ></img>
                         </div>
                     </a>
                     <a href='https://github.com/LuizLaikovski/EstudosComFlask' className='LINKSSSSSSSS'>

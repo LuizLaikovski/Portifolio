@@ -1,3 +1,21 @@
+:root {
+  --backgroundWhite: rgb(202, 202, 202);
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(202, 202, 202); /* Cor do fundo da barra de rolagem */
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(142, 142, 142); /* Cor do "thumb" (a parte móvel) */
+  border-radius: 6px; /* Bordas arredondadas */
+  border: 3px solid rgb(142, 142, 142); /* Espaçamento ao redor do thumb */
+}
+
 html {
   overflow-x: hidden;
 }
@@ -34,7 +52,7 @@ body {
 .Section2 {
   height: 270dvh;
   width: 100dvw;
-  background-color: rgb(202, 202, 202);
+  background-color: var(--backgroundWhite);
 }
 
 

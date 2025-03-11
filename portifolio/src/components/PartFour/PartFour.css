@@ -8,11 +8,6 @@ body {
     margin: 0;
 }
 
-.LINKSSSSSSSS {
-    text-decoration: none;
-    color: black;
-}
-
 .Partf {
     width: 100dvw;
     height: 90dvh;
@@ -42,12 +37,14 @@ body {
     margin-right: 10px;
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
     transition: 0.3s;
 }
 
 .habilits:hover {
     transform: scale(106%);
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.7);
 }
 
 .habilits p {
@@ -73,8 +70,25 @@ body {
     font-size: 1.3dvw;
 }
 
+
+.LINKSSSSSSSS {
+    text-decoration: none;
+    color: black;
+    transition: 0.3s ease;
+}
+
+.LINKSSSSSSSS:hover {
+    transform: scale(+105%);
+}
+
+.imageOneExemple {
+    width: 20dvw;
+    border-radius: 30px;
+    border: black 1px solid;
+}
+
 /* RESPONSIVIDADE */
-@media (max-width: 1024px) {
+@media (max-width: 1025px) {
     .habilits {
         width: 24dvw;
     }
@@ -85,6 +99,10 @@ body {
 
     .habilits h1 {
         font-size: 15px;
+    }
+
+    .imageOneExemple {
+        width: 35dvw;
     }
 }
 
