@@ -89,12 +89,17 @@ body {
 
 /* RESPONSIVIDADE */
 @media (max-width: 1025px) {
+    .division {
+        height: 92dvh;
+    }
+
     .Partf {
-        height: auto;
+        height: 92dvh;
     }
 
     .habilits {
-        width: 24dvw;
+        height: 25dvh;
+        width: 30dvw;
     }
 
     .habilits p {
@@ -106,7 +111,7 @@ body {
     }
 
     .imageOneExemple {
-        width: 35dvw;
+        width: 27dvw;
     }
 }
 
