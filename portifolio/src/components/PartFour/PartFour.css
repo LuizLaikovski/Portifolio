@@ -89,6 +89,10 @@ body {
 
 /* RESPONSIVIDADE */
 @media (max-width: 1025px) {
+    .Partf {
+        height: auto;
+    }
+
     .habilits {
         width: 24dvw;
     }
