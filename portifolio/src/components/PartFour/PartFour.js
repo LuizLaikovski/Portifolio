@@ -37,7 +37,7 @@ function PartFour() {
                             <FontAwesomeIcon icon={faPython} className="icon" />
                         </div>
                     </a>
-                    <a className='LINKSSSSSSSS'>
+                    <a className='LINKSSSSSSSS' href='https://github.com/LuizLaikovski/InternetChecker'>
                         <div className='habilits reveal treeBox'>
                             <h1>Internet Checker</h1>
                             <RiscoH largura='20' grossura='0.8' margens='12' />
@@ -45,7 +45,7 @@ function PartFour() {
                             <FontAwesomeIcon icon={faPython} className='icon'/>
                         </div>
                     </a>
-                    <a className='LINKSSSSSSSS'>
+                    <a className='LINKSSSSSSSS' href='https://github.com/LuizLaikovski/AppWeatherForecast' >
                         <div className='habilits reveal treeBox'>
                             <h1>App WeatherForecast</h1>
                             <RiscoH largura='20' grossura='0.8' margens='12' />
