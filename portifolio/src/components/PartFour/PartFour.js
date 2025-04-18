@@ -2,7 +2,7 @@ import './PartFour.css'
 import Risco from '../Risco/Risco';
 import RiscoH from '../RiscoH/RiscoH';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCss, faCss3, faCss3Alt, faHtml5, faJs, faPython } from '@fortawesome/free-brands-svg-icons';
+import { faCss, faCss3, faCss3Alt, faHtml5, faJava, faJs, faPython } from '@fortawesome/free-brands-svg-icons';
 
 
 function PartFour() {
@@ -35,6 +35,22 @@ function PartFour() {
                             <RiscoH largura='20' grossura='0.8' margens='12'/>
                             <p>Nesse pequeno projeto criei um sistema de estoque. Onde possui a funcionabilidade de Adcionar, Listar, Editar(preço, quantidade e nome) e deletar o produto ou apenas uma quantidade </p>
                             <FontAwesomeIcon icon={faPython} className="icon" />
+                        </div>
+                    </a>
+                    <a className='LINKSSSSSSSS'>
+                        <div className='habilits reveal treeBox'>
+                            <h1>Internet Checker</h1>
+                            <RiscoH largura='20' grossura='0.8' margens='12' />
+                            <p>Nesse projeto em Python, verifico o sinal de internet, retornando o ping, velocidade de download e upload e traceroute.</p>
+                            <FontAwesomeIcon icon={faPython} className='icon'/>
+                        </div>
+                    </a>
+                    <a className='LINKSSSSSSSS'>
+                        <div className='habilits reveal treeBox'>
+                            <h1>App WeatherForecast</h1>
+                            <RiscoH largura='20' grossura='0.8' margens='12' />
+                            <p>Nesta aplicação em java é verificado o clima em determinada cidade, foi usado a API WeatherStack para verificar estes sinais.</p>
+                            <FontAwesomeIcon icon={faJava} className='icon'/>
                         </div>
                     </a>
                 </main>
