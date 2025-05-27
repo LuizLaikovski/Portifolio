@@ -24,7 +24,11 @@ function Faixa() {
                     <li onClick={() => scrollToElements('SoftSkill')}>Soft Skill's</li>
                     <li onClick={() => scrollToElements('MeusServicos')}>Projetos</li>
                     <li onClick={() => scrollToElements('contato')}>Contato</li>
+<<<<<<< HEAD
                     <li><a href="./Curriculo.df" download="Curriculo.pdf">Baixar Curriculo</a></li>
+=======
+                    <li><a href="/Curriculo.pdf" download="Curriculo.pdf">Baixar Curriculo</a></li>
+>>>>>>> parent of d68aa8f (teste)
                 </ul>
             </header>
         </>
