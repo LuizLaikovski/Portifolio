@@ -24,7 +24,7 @@ body {
     color: whitesmoke;
     border-bottom: solid 2px whitesmoke;
     position: fixed;
-    z-index: 1;
+    z-index: 1000;
 }
 
 .titleF {
@@ -57,6 +57,7 @@ body {
 
 .NavBar li:hover {
     transform: scale(+120%);
+    text-decoration: underline;
 }
 
 .LOGOO {
@@ -90,11 +91,11 @@ body {
 }
 
 .botaoAF {
-    background-color: transparent;
+    background: none;
     border: none;
     color: white;
+    font-size: 1.5rem;
     cursor: pointer;
-    font-size: 30px;
 }
 
 .NavBar.active {
@@ -124,10 +125,6 @@ body {
 .mobile-menu.active .line3 {
     transform: rotate(45deg) translate(-5px, -7px);
 }
-
-/* * {
-    border: red solid 0.5px;
-} */
 
 @media (max-width: 1395px) {
     .NavBar {
